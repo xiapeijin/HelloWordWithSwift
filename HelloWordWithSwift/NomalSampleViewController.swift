@@ -83,7 +83,6 @@ class NomalSampleViewController: UIViewController {
             //self.view.setNeedsLayout()
             //改变下约束
             self.bottomConstraint.constant = intersection.height + 30
-//            self.view.frame = CGRect(x: 0, y: 0 - intersection.height, width: self.view.frame.width, height: self.view.frame.height)
             
             UIView.animate(withDuration: duration, delay: 0.0,
                            options: UIViewAnimationOptions(rawValue: curve), animations: {
