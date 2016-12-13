@@ -34,6 +34,9 @@
                                 <rect key="frame" x="16" y="174" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="table view demo"/>
+                                <connections>
+                                    <segue destination="Rdt-eN-gzg" kind="push" id="5Rf-9N-1sb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,6 +46,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="964" y="36.431784107946029"/>
+        </scene>
+        <!--Demo Table View Controller-->
+        <scene sceneID="3z5-p6-rUx">
+            <objects>
+                <viewController id="Rdt-eN-gzg" customClass="DemoTableViewController" customModule="HelloWordWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="TsK-qa-jpG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qE2-aL-bvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="170"/>
         </scene>
         <!--Nomal Sample View Controller-->
         <scene sceneID="uFX-W6-hrC">
@@ -151,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zD3-3i-H8z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1740" y="45.42728635682159"/>
+            <point key="canvasLocation" x="1783" y="-540"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SE1-IR-ygP">

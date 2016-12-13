@@ -16,6 +16,12 @@
 		CE28C9791DFED5D600AB88EF /* HelloWordWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C9781DFED5D600AB88EF /* HelloWordWithSwiftTests.swift */; };
 		CE28C9841DFED5D600AB88EF /* HelloWordWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C9831DFED5D600AB88EF /* HelloWordWithSwiftUITests.swift */; };
 		CE28C9921DFED6DF00AB88EF /* NomalSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C9911DFED6DF00AB88EF /* NomalSampleViewController.swift */; };
+		CE28C9991E003E7E00AB88EF /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C9971E003E7E00AB88EF /* DemoTableViewController.swift */; };
+		CE28C99A1E003E7E00AB88EF /* DemoTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE28C9981E003E7E00AB88EF /* DemoTableView.xib */; };
+		CE28C99F1E003F7D00AB88EF /* DemoStyle1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C99D1E003F7D00AB88EF /* DemoStyle1TableViewCell.swift */; };
+		CE28C9A01E003F7D00AB88EF /* DemoStyle1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE28C99E1E003F7D00AB88EF /* DemoStyle1TableViewCell.xib */; };
+		CE28C9A41E00424E00AB88EF /* DemoStyle2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C9A21E00424E00AB88EF /* DemoStyle2TableViewCell.swift */; };
+		CE28C9A51E00424E00AB88EF /* DemoStyle2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE28C9A31E00424E00AB88EF /* DemoStyle2TableViewCell.xib */; };
 		D2CA52141DFFA79100073DCF /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CA52131DFFA79100073DCF /* FirstView.xib */; };
 		D2CA52161DFFA7C300073DCF /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CA52151DFFA7C300073DCF /* SecondView.xib */; };
 		D2CA52181DFFB86E00073DCF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA52171DFFB86E00073DCF /* FirstViewController.swift */; };
@@ -56,6 +62,12 @@
 		CE28C9831DFED5D600AB88EF /* HelloWordWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWordWithSwiftUITests.swift; sourceTree = "<group>"; };
 		CE28C9851DFED5D600AB88EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE28C9911DFED6DF00AB88EF /* NomalSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NomalSampleViewController.swift; sourceTree = "<group>"; };
+		CE28C9971E003E7E00AB88EF /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		CE28C9981E003E7E00AB88EF /* DemoTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTableView.xib; sourceTree = "<group>"; };
+		CE28C99D1E003F7D00AB88EF /* DemoStyle1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoStyle1TableViewCell.swift; sourceTree = "<group>"; };
+		CE28C99E1E003F7D00AB88EF /* DemoStyle1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoStyle1TableViewCell.xib; sourceTree = "<group>"; };
+		CE28C9A21E00424E00AB88EF /* DemoStyle2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoStyle2TableViewCell.swift; sourceTree = "<group>"; };
+		CE28C9A31E00424E00AB88EF /* DemoStyle2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoStyle2TableViewCell.xib; sourceTree = "<group>"; };
 		D2CA52131DFFA79100073DCF /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
 		D2CA52151DFFA7C300073DCF /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		D2CA52171DFFB86E00073DCF /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +126,7 @@
 				CE28C9601DFED5D500AB88EF /* AppDelegate.swift */,
 				CE28C9621DFED5D500AB88EF /* ViewController.swift */,
 				CE28C9641DFED5D500AB88EF /* Main.storyboard */,
+				CE28C99B1E003F0E00AB88EF /* DemoTableView */,
 				CE28C9911DFED6DF00AB88EF /* NomalSampleViewController.swift */,
 				CE28C96A1DFED5D500AB88EF /* Assets.xcassets */,
 				CE28C96C1DFED5D500AB88EF /* LaunchScreen.storyboard */,
@@ -144,6 +157,35 @@
 				CE28C9851DFED5D600AB88EF /* Info.plist */,
 			);
 			path = HelloWordWithSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CE28C99B1E003F0E00AB88EF /* DemoTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CE28C9A11E003FEA00AB88EF /* model */,
+				CE28C99C1E003F3300AB88EF /* view */,
+				CE28C9971E003E7E00AB88EF /* DemoTableViewController.swift */,
+				CE28C9981E003E7E00AB88EF /* DemoTableView.xib */,
+			);
+			name = DemoTableView;
+			sourceTree = "<group>";
+		};
+		CE28C99C1E003F3300AB88EF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE28C99D1E003F7D00AB88EF /* DemoStyle1TableViewCell.swift */,
+				CE28C99E1E003F7D00AB88EF /* DemoStyle1TableViewCell.xib */,
+				CE28C9A21E00424E00AB88EF /* DemoStyle2TableViewCell.swift */,
+				CE28C9A31E00424E00AB88EF /* DemoStyle2TableViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CE28C9A11E003FEA00AB88EF /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +299,11 @@
 				CE28C96E1DFED5D500AB88EF /* LaunchScreen.storyboard in Resources */,
 				D2CA52161DFFA7C300073DCF /* SecondView.xib in Resources */,
 				D2CA52141DFFA79100073DCF /* FirstView.xib in Resources */,
+				CE28C99A1E003E7E00AB88EF /* DemoTableView.xib in Resources */,
 				D2CA521C1DFFCDBB00073DCF /* TestStoryboard.storyboard in Resources */,
 				CE28C96B1DFED5D500AB88EF /* Assets.xcassets in Resources */,
+				CE28C9A51E00424E00AB88EF /* DemoStyle2TableViewCell.xib in Resources */,
+				CE28C9A01E003F7D00AB88EF /* DemoStyle1TableViewCell.xib in Resources */,
 				CE28C9661DFED5D500AB88EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,11 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2CA521A1DFFB89600073DCF /* SecondViewController.swift in Sources */,
+				CE28C9A41E00424E00AB88EF /* DemoStyle2TableViewCell.swift in Sources */,
 				D2CA52181DFFB86E00073DCF /* FirstViewController.swift in Sources */,
+				CE28C99F1E003F7D00AB88EF /* DemoStyle1TableViewCell.swift in Sources */,
 				CE28C9631DFED5D500AB88EF /* ViewController.swift in Sources */,
 				CE28C9691DFED5D500AB88EF /* HelloWordWithSwift.xcdatamodeld in Sources */,
 				CE28C9921DFED6DF00AB88EF /* NomalSampleViewController.swift in Sources */,
 				CE28C9611DFED5D500AB88EF /* AppDelegate.swift in Sources */,
+				CE28C9991E003E7E00AB88EF /* DemoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
