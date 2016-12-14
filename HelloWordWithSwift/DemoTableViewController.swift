@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Alamofire
 class DemoTableViewController: UITableViewController {
     
     let style1CellIdentifier = "style1CellIdentifier"
@@ -60,6 +60,16 @@ class DemoTableViewController: UITableViewController {
                      (name: "swana", comment: "i am swana, hello! ", img: "07"),
                      (name: "kukuda", comment: "i am kukuda, hello! ", img: "08"),
                     ]
+        Alamofire.request("https://httpbin.org/get").responseJSON { response in
+            print(response.request)  // original URL request
+            print(response.response) // HTTP URL response
+            print(response.data)     // server data
+            print(response.result)   // result of response serialization
+            
+            if let JSON = response.result.value {
+                print("JSON: \(JSON)")
+            }
+        }
     }
     
     // MARK: - 注册Cells
